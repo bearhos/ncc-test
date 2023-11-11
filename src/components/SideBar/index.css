@@ -1,0 +1,44 @@
+.home-item {
+    background-color: #191718;
+    height: 44px;
+    position: relative;
+    width: 150px;
+  }
+ 
+  .home-item .border {
+    background-image: url(https://c.animaapp.com/CqslzPRL/img/bottom-5.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 43px;
+    width: 150px;
+  }
+  
+ .home {
+    display: block;
+    color: #AAAAAA;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+  
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 11px 15px  ;
+    position: relative;
+    white-space: nowrap;
+  }
+  .home:hover {
+    background-color: #5C5C5C;
+    color: #ffffff;
+  }
+  .home::after {
+    content: '';
+    width: 100vw;
+    height: 1px;
+    background-color: #5C5C5C;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+  }
